@@ -1,0 +1,103 @@
+
+*{
+  box-sizing:border-box;
+}
+body{
+  background-image:linear-gradient(135deg,#23a6fe,#8878f5);
+}
+
+#todo-container{
+  width:500px;
+  margin:35px auto;
+  text-align: center;
+  background-color:#fff;
+  min-height: 655px;
+
+  box-shadow:0px 0px 43px #6f6fd8;
+
+}
+
+#todo-head{
+  padding-top:17px;
+  background-color:#80abff;
+  background-image:linear-gradient(45deg,#23a6fe,#8878f5);
+  height:158px;
+}
+
+#sub-head{
+
+}
+#search{
+  background-image:linear(#2dbcff,#36acff);
+  border:0;
+  padding:10px;
+  text-align:center;
+  min-width:77%;
+  border-radius:16px;
+  outline:0;
+  font-family: lato;
+
+}
+
+#day{
+  top:41;
+  left:28;
+  font-family:'lato';
+  font-size:79px;
+  color:yellow;
+
+
+}
+
+#month-year{
+  font-size:30px;
+  font-family:'lato';
+    top:48px;
+  left:108px;
+  width:73px;
+  color:#fff;
+}
+#day-week{
+  font-size:20px;
+  font-family:'lato';
+    top:88px;
+right:34px;
+  width:73px;
+  color:#fff;
+}
+
+#todo-body{
+  padding:10px 20px;
+  width:100%;
+  left:-50%;
+  min-height: 100%;
+  background-color:#fff;
+  box-shadow: 0px 0px 6px #665e5e;
+}
+
+.todo{
+  margin-top:20px;
+  border:0;
+  border-left:3px solid #2dbcff;
+  text-align: left;
+  padding:10px 15px;
+  box-shadow: 0px 13px 12px #aca5a7
+
+
+}
+
+.todo-title{
+    margin:0;
+    font-family:'open sans',sans-serif;
+    color:#2a2a2a;
+    font-family: Quicksand,sans-serif;
+
+}
+
+.todo-body{
+  color:#484343;
+  font-family:'open sans',sans-serif;
+  margin:10px 0 0 0 ;
+  font-size:14px;
+
+}

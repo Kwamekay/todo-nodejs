@@ -1,0 +1,52 @@
+
+
+
+//====general styles=====
+button,input{
+  cursor:pointer;
+}
+
+button:focus{
+  outline:0;
+}
+
+li{
+  list-style-type:none;
+}
+
+
+a{
+  text-decoration: none;
+}
+//======for position======//
+.rel{
+  position:relative;
+}
+
+.abs{
+  position:absolute;
+}
+
+//=======for flex box========//
+.d-flex{
+  display:flex;
+}
+
+.f-wrap{
+  flex-wrap:wrap;
+}
+
+.flex-col{
+  flex-direction:column;
+}
+.al-self{
+  align-items: baseline;
+}
+
+.b-n{
+  border:none;
+}
+
+.b-t{
+  background-color:transparent;
+}
